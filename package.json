@@ -1,0 +1,28 @@
+{
+  "name": "homework1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "lint": "eslint src/**/*.js --fix",
+    "start": "eslint src/**/*.js --fix && node src/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HVallad/Homework1.git"
+  },
+  "author": "Hunter Vallad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HVallad/Homework1/issues"
+  },
+  "homepage": "https://github.com/HVallad/Homework1#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
